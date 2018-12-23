@@ -50,7 +50,7 @@ LOG_PACKETS=no                 # yes/on/true/1 to log every advertisement packag
 Docker image for Raspberry pi
 -----------------------------
 
-A Docker image for arm is published on the Docker Hub: [tomdesinto/bluetooth-beacon-mqtt-exporter](https://cloud.docker.com/repository/docker/tomdesinto/bluetooth-beacon-mqtt-exporter)
+A Docker image for arm is published on the Docker Hub: [tomdesinto/bluetooth-beacon-mqtt-exporter](https://hub.docker.com/r/tomdesinto/bluetooth-beacon-mqtt-exporter)
 
 
 ```sh
