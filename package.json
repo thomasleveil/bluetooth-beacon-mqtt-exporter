@@ -1,0 +1,25 @@
+{
+  "name": "bluetooth-beacon-mqtt-exporter",
+  "version": "1.0.0",
+  "description": "service publishing Bluetooth BLE beacons advertisements on a mqtt topic",
+  "main": "cli.js",
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "noble": "^1.9.1",
+    "node-beacon-scanner": "^0.1.0",
+    "bluetooth-hci-socket": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "bin": {
+    "bluetooth-beacon-mqtt-exporter": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomasleveil/bluetooth-beacon-mqtt-exporter.git"
+  },
+  "author": "Thomas LEVEIL",
+  "license": "ISC"
+}
