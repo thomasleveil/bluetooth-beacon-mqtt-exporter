@@ -1,3 +1,8 @@
+|                       |              |                     |
+|-----------------------|--------------|---------------------|
+| [Documentation][doc]  |  [npm][npm]  |  [Docker Hub][hub]  | 
+----
+
 bluetooth-beacon-mqtt-exporter
 ==============================
 
@@ -50,7 +55,7 @@ LOG_PACKETS=no                 # yes/on/true/1 to log every advertisement packag
 Docker image for Raspberry pi
 -----------------------------
 
-A Docker image for arm is published on the Docker Hub: [tomdesinto/bluetooth-beacon-mqtt-exporter](https://hub.docker.com/r/tomdesinto/bluetooth-beacon-mqtt-exporter)
+A Docker image for arm is published on the Docker Hub: [tomdesinto/bluetooth-beacon-mqtt-exporter][hub]
 
 
 ```sh
@@ -102,3 +107,8 @@ sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev
 sudo service bluetooth start
 sudo MQTT_BROKER=mqtt://127.0.0.1 MQTT_TOPIC=beacon npm run start
 ```
+
+
+[doc]: https://github.com/thomasleveil/bluetooth-beacon-mqtt-exporter#readme
+[hub]: https://hub.docker.com/r/tomdesinto/bluetooth-beacon-mqtt-exporter
+[npm]: https://www.npmjs.com/package/bluetooth-beacon-mqtt-exporter
