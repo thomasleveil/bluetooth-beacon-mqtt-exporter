@@ -10,7 +10,7 @@ Dependencies
 ------------
 
 
-```
+```sh
 sudo apt-get install bluetooth
 ```
 
@@ -21,7 +21,7 @@ Install
 -------
 
 
-```
+```sh
 npm install bluetooth-beacon-mqtt-exporter
 ```
 
@@ -29,7 +29,7 @@ npm install bluetooth-beacon-mqtt-exporter
 Run
 ---
 
-```
+```sh
 sudo bluetooth-beacon-mqtt-exporter
 ```
 
@@ -53,7 +53,7 @@ Docker image for Raspberry pi
 A Docker image for arm is published on the Docker Hub: [tomdesinto/bluetooth-beacon-mqtt-exporter](https://cloud.docker.com/repository/docker/tomdesinto/bluetooth-beacon-mqtt-exporter)
 
 
-```
+```sh
 sudo apt-get install bluetooth
 sudo service bluetooth start
 docker run -d \
@@ -63,6 +63,23 @@ docker run -d \
     -e MQTT_TOPIC=beacon \
     -e LOG_PACKETS=yes \
     tomdesinto/bluetooth-beacon-mqtt-exporter:rpi
+```
+
+### docker-compose.yml
+
+```yaml
+version: "3"
+
+services:
+  beaconmqtt:
+    image: tomdesinto/bluetooth-beacon-mqtt-exporter:rpi
+    network_mode: host
+    privileged: true
+    environment:
+      MQTT_BROKER: mqtt://127.0.0.1
+      MQTT_TOPIC: beacon
+      MQTT_RECONNECT_DELAY: 5000
+      LOG_PACKETS: "yes"
 ```
 
 
