@@ -54,7 +54,15 @@ A Docker image for arm is published on the Docker Hub: [tomdesinto/bluetooth-bea
 
 
 ```
-docker run -d -e MQTT_BROKER=mqtt://127.0.0.1 MQTT_TOPIC=beacon tomdesinto/bluetooth-beacon-mqtt-exporter:rpi
+sudo apt-get install bluetooth
+sudo service bluetooth start
+docker run -d \
+    --net=host \
+    --privileged \
+    -e MQTT_BROKER=mqtt://127.0.0.1 \
+    -e MQTT_TOPIC=beacon \
+    -e LOG_PACKETS=yes \
+    tomdesinto/bluetooth-beacon-mqtt-exporter:rpi
 ```
 
 
