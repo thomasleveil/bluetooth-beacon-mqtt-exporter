@@ -6,7 +6,7 @@
   "dependencies": {
     "mqtt": "^2.18.8",
     "noble": "^1.9.1",
-    "node-beacon-scanner": "^0.1.0",
+    "node-beacon-scanner": "^0.1.1",
     "bluetooth-hci-socket": "^0.5.1"
   },
   "devDependencies": {},
