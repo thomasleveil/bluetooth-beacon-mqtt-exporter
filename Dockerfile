@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /srv
-COPY ./package*.json /srv
+COPY ./package*.json /srv/
 RUN npm install
 
 COPY . /srv
