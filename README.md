@@ -6,7 +6,7 @@
 bluetooth-beacon-mqtt-exporter
 ==============================
 
-This a service running on node v8 publishing Bluetooth BLE beacons advertisements on a mqtt topic.
+This is a service running on node v8 publishing Bluetooth BLE beacons advertisements on a mqtt topic.
 
 The original intent is to make available to node-RED temperature readings from Estimote beacons ; but this will work with any beacon advertisement supported by the [node-beacon-scanner](https://github.com/futomi/node-beacon-scanner) module.
 
