@@ -1,4 +1,4 @@
-[![Documentation][badge-doc]][doc]  [![npm version][badge-npm]][npm]   [![Docker Hub][badge-docker-hub]][hub]   [![][badge-github]][github]  
+[![Documentation][badge-doc]][doc]  [![npm version][badge-npm]][npm]   [![Docker Hub][badge-docker-hub]][hub]  [![](https://images.microbadger.com/badges/image/tomdesinto/bluetooth-beacon-mqtt-exporter.svg)](https://microbadger.com/images/tomdesinto/bluetooth-beacon-mqtt-exporter "Get your own image badge on microbadger.com")  [![][badge-github]][github]  
 
 ----
 
