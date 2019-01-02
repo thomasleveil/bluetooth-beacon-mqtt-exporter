@@ -1,4 +1,4 @@
-[![Documentation][badge-doc]][doc]  [![npm version][badge-npm]][npm]   [![Docker Hub][badge-docker-hub]][hub]  [![](https://images.microbadger.com/badges/image/tomdesinto/bluetooth-beacon-mqtt-exporter.svg)](https://microbadger.com/images/tomdesinto/bluetooth-beacon-mqtt-exporter "Get your own image badge on microbadger.com")  [![][badge-github]][github]  
+[![Documentation][badge-doc]][doc]  [![npm version][badge-npm]][npm]   [![Docker Hub][badge-docker-hub]][hub]  [![](https://images.microbadger.com/badges/image/tomdesinto/bluetooth-beacon-mqtt-exporter.svg)](https://microbadger.com/images/tomdesinto/bluetooth-beacon-mqtt-exporter "Get your own image badge on microbadger.com")   [![Dockerfile][badge-dockerfile]][dockerfile]   [![][badge-github]][github]  
 
 ----
 
@@ -112,8 +112,10 @@ sudo MQTT_BROKER=mqtt://127.0.0.1 MQTT_TOPIC=beacon npm run start
 [hub]: https://hub.docker.com/r/tomdesinto/bluetooth-beacon-mqtt-exporter
 [npm]: https://www.npmjs.com/package/bluetooth-beacon-mqtt-exporter
 [github]: https://github.com/thomasleveil/bluetooth-beacon-mqtt-exporter
+[dockerfile]: https://github.com/thomasleveil/bluetooth-beacon-mqtt-exporter/blob/master/Dockerfile
 
 [badge-doc]: https://img.shields.io/badge/-documentation-blue.svg
 [badge-npm]: https://badge.fury.io/js/bluetooth-beacon-mqtt-exporter.svg
 [badge-github]: https://img.shields.io/badge/-Github-gray.svg?logo=github&style=social
 [badge-docker-hub]: https://img.shields.io/badge/Docker%20image-rpi-blue.svg?logo=docker
+[badge-dockerfile]: https://img.shields.io/badge/-Dockerfile-blue.svg?logo=docker
