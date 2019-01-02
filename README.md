@@ -1,6 +1,8 @@
-|                       |              |                     |
-|-----------------------|--------------|---------------------|
-| [Documentation][doc]  |  [npm][npm]  |  [Docker Hub][hub]  | 
+[![Documentation][badge-doc]][doc]  
+[![npm version][badge-npm]][npm]  
+[![Docker Hub][badge-docker-hub]][hub]  
+[![][badge-github]][github]  
+
 ----
 
 bluetooth-beacon-mqtt-exporter
@@ -112,3 +114,9 @@ sudo MQTT_BROKER=mqtt://127.0.0.1 MQTT_TOPIC=beacon npm run start
 [doc]: https://github.com/thomasleveil/bluetooth-beacon-mqtt-exporter#readme
 [hub]: https://hub.docker.com/r/tomdesinto/bluetooth-beacon-mqtt-exporter
 [npm]: https://www.npmjs.com/package/bluetooth-beacon-mqtt-exporter
+[github]: https://github.com/thomasleveil/bluetooth-beacon-mqtt-exporter
+
+[badge-doc]: https://img.shields.io/badge/-documentation-blue.svg
+[badge-npm]: https://badge.fury.io/js/bluetooth-beacon-mqtt-exporter.svg
+[badge-github]: https://img.shields.io/badge/-Github-gray.svg?logo=github&style=social
+[badge-docker-hub]: https://img.shields.io/badge/Docker%20image-rpi-blue.svg?logo=docker
