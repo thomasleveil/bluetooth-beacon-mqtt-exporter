@@ -1,7 +1,4 @@
-[![Documentation][badge-doc]][doc]  
-[![npm version][badge-npm]][npm]  
-[![Docker Hub][badge-docker-hub]][hub]  
-[![][badge-github]][github]  
+[![Documentation][badge-doc]][doc]  [![npm version][badge-npm]][npm]   [![Docker Hub][badge-docker-hub]][hub]   [![][badge-github]][github]  
 
 ----
 
